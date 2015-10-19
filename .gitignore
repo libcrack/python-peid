@@ -1,0 +1,8 @@
+*.py[co]
+*.log
+*.lock
+*.orig
+*.egg-info
+venv
+dist
+build
