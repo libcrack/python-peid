@@ -21,11 +21,11 @@ def read(relpath):
 
 NAME = 'peid'
 VERSION = re.search('__version__ = "(.+?)"', read('peid.py')).group(1)
-DESCRIPTION = 'PEiD like python script.'
+DESCRIPTION = 'PEiD like python script'
 KEYWORDS = 'packer malware peid'
 AUTHOR = 'Borja Ruiz'
 AUTHOR_EMAIL = 'borja@libcrack.so'
-URL = 'https://www.github.com/borjiviri/peid'
+URL = 'https://www.github.com/libcrack/python-peid'
 LICENSE = read('LICENSE')
 PACKAGES = [NAME]
 PACKAGE_DATA = {NAME: ['data/*'],}

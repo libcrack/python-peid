@@ -5,7 +5,7 @@
 __version__ = "1.5.0"
 __author__  = "Borja Ruiz"
 __email__   = "borja [at] libcrack [dot] so"
-__url__     = "https://www.github.com/borjiviri/peid"
+__url__     = "https://www.github.com/libcrack/peid"
 
 import logging
 import peutils
